@@ -1,0 +1,20 @@
+{
+  "name": "firstagent",
+  "version": "1.0.0",
+  "description": "My first agent using openAI agent SDK",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@openai/agents": "^0.3.0",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "resend": "^6.4.1",
+    "zod": "^3.25.76"
+  }
+}
